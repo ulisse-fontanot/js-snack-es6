@@ -8,8 +8,12 @@ console.log(array);
 
 for (let i = 0; i < array.length; i++) {
   if (array[i]%2 == 0) {
-    document.getElementById('green').innerHTML +=array[i];
+    document.getElementById('green').innerHTML +=`
+    ${array[i]}
+    `
   } else {
-    document.getElementById('red').innerHTML +=array[i];
+    document.getElementById('red').innerHTML +=`
+    ${array[i]}
+    `
   }
 }
